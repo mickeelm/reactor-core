@@ -1,0 +1,739 @@
+{
+  "0": [],
+  "BufferOverflowStrategy": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/BufferOverflowStrategy.html"
+  ],
+  "C": [],
+  "CompletableFuture<T>": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html"
+  ],
+  "ConnectableFlux": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/ConnectableFlux.html"
+  ],
+  "Duration": [
+    "https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html?is-external=true"
+  ],
+  "Flux#": [],
+  "Flux#blockFirst(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#blockFirst-java.time.Duration-"
+  ],
+  "Flux#blockFirst": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#blockFirst--"
+  ],
+  "Flux#blockLast(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#blockLast-java.time.Duration-"
+  ],
+  "Flux#blockLast": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#blockLast--"
+  ],
+  "Flux#combineLatest": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#combineLatest-java.util.function.Function-int-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  "Flux#concatDelayError": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#concatDelayError-org.reactivestreams.Publisher-"
+  ],
+  "Flux#concatWithValues(T...)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#concatWithValues-T%2E%2E%2E-"
+  ],
+  "Flux#concat": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#concat-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  "Flux#create": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#create-java.util.function.Consumer-"
+  ],
+  "Flux#delayElements": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#delayElements-java.time.Duration-"
+  ],
+  "Flux#distinctUntilChanged": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#distinctUntilChanged--"
+  ],
+  "Flux#distinct": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#distinct--"
+  ],
+  "Flux#doOnComplete": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnComplete-java.lang.Runnable-"
+  ],
+  "Flux#doOnEach": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnEach-java.util.function.Consumer-"
+  ],
+  "Flux#elementAt": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#elementAt-int-"
+  ],
+  "Flux#flatMapSequential": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#flatMapSequential-java.util.function.Function-"
+  ],
+  "Flux#fromArray": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#fromArray-T:A-"
+  ],
+  "Flux#fromIterable": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#fromIterable-java.lang.Iterable-"
+  ],
+  "Flux#fromStream(Supplier<Stream>)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#fromStream-java.util.function.Supplier-"
+  ],
+  "Flux#generate": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#generate-java.util.concurrent.Callable-java.util.function.BiFunction-"
+  ],
+  "Flux#index": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#index--"
+  ],
+  "Flux#interval": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#interval-java.time.Duration-"
+  ],
+  "Flux#just(T...)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#just-T%2E%2E%2E-"
+  ],
+  "Flux#last()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#last--"
+  ],
+  "Flux#last(T)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#last-T-"
+  ],
+  "Flux#limitRequest(long)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#limitRequest-long-"
+  ],
+  "Flux#mergeSequential": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#mergeSequential-int-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  "Flux#merge": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#merge-int-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  "Flux#next()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#next--"
+  ],
+  "Flux#onBackpressureBuffer": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onBackpressureBuffer--"
+  ],
+  "Flux#onBackpressureDrop": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onBackpressureDrop--"
+  ],
+  "Flux#onBackpressureError": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onBackpressureError--"
+  ],
+  "Flux#onBackpressureLatest": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onBackpressureLatest--"
+  ],
+  "Flux#onErrorResume": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onErrorResume-java.lang.Class-java.util.function.Function-"
+  ],
+  "Flux#range": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#range-int-int-"
+  ],
+  "Flux#replay": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#replay--"
+  ],
+  "Flux#sample(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#sample-java.time.Duration-"
+  ],
+  "Flux#sample(Publisher)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#sample-java.time.Duration-"
+  ],
+  "Flux#sampleTimeout": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#sampleTimeout-java.util.function.Function-"
+  ],
+  "Flux#single()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#single--"
+  ],
+  "Flux#single(T)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#single-T-"
+  ],
+  "Flux#singleOrEmpty": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#singleOrEmpty--"
+  ],
+  "Flux#skip(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skip-java.time.Duration-"
+  ],
+  "Flux#skip(long)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skip-long-"
+  ],
+  "Flux#skipLast": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skipLast-int-"
+  ],
+  "Flux#skipUntilOther": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skipUntilOther-org.reactivestreams.Publisher-"
+  ],
+  "Flux#skipUntil": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skipUntil-java.util.function.Predicate-"
+  ],
+  "Flux#skipWhile": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#skipWhile-java.util.function.Predicate-"
+  ],
+  "Flux#startWith(T...)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#startWith-T%2E%2E%2E-"
+  ],
+  "Flux#take(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#take-java.time.Duration-"
+  ],
+  "Flux#take(long)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#take-long-"
+  ],
+  "Flux#takeLast": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#takeLast-int-"
+  ],
+  "Flux#takeUntilOther": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#takeUntilOther-org.reactivestreams.Publisher-"
+  ],
+  "Flux#takeUntil": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#takeUntilOther-org.reactivestreams.Publisher-"
+  ],
+  "Flux#takeWhile": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#takeWhile-java.util.function.Predicate-"
+  ],
+  "Flux#toIterable": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#toIterable--"
+  ],
+  "Flux#toStream": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#toStream--"
+  ],
+  "Flux#zipWith": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#zipWith-org.reactivestreams.Publisher-"
+  ],
+  "Flux#zip": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#zip-java.util.function.Function-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  "Flux.interval(duration).flatMap(tick -> myExistingPublisher)": [],
+  "Flux<Flux<T>>": [],
+  "Flux<GroupedFlux<K, T>>": [],
+  "Flux<T>": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html"
+  ],
+  "Flux": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html"
+  ],
+  "GroupedFlux": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/GroupedFlux.html"
+  ],
+  "IllegalStateException": [
+    "https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalStateException.html?is-external=true"
+  ],
+  "Instant": [
+    "https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html?is-external=true"
+  ],
+  "Iterable<T>": [
+    "https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html?is-external=true"
+  ],
+  "K": [],
+  "List": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true"
+  ],
+  "Mono#and": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#and-org.reactivestreams.Publisher-"
+  ],
+  "Mono#block(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#block-java.time.Duration-"
+  ],
+  "Mono#block": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#block--"
+  ],
+  "Mono#create": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#create-java.util.function.Consumer-"
+  ],
+  "Mono#delayElement": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#delayElement-java.time.Duration-"
+  ],
+  "Mono#delayUntil(Function)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#delayUntil-java.util.function.Function-"
+  ],
+  "Mono#doOnSuccess": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnSuccess-java.util.function.Consumer-"
+  ],
+  "Mono#flatMapMany": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#flatMapMany-java.util.function.Function-"
+  ],
+  "Mono#fromCallable": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromCallable-java.util.concurrent.Callable-"
+  ],
+  "Mono#fromFuture": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromFuture-java.util.concurrent.CompletableFuture-"
+  ],
+  "Mono#fromRunnable": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromRunnable-java.lang.Runnable-"
+  ],
+  "Mono#fromSupplier": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#fromSupplier-java.util.function.Supplier-"
+  ],
+  "Mono#justOrEmpty(Optional<T>)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#justOrEmpty-java.util.Optional-"
+  ],
+  "Mono#justOrEmpty(T)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#justOrEmpty-T-"
+  ],
+  "Mono#onErrorResume": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#onErrorResume-java.lang.Class-java.util.function.Function-"
+  ],
+  "Mono#then(mono)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#then-reactor.core.publisher.Mono-"
+  ],
+  "Mono#thenReturn(T)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#thenReturn-V-"
+  ],
+  "Mono#toFuture": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#toFuture--"
+  ],
+  "Mono#when": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#when-java.lang.Iterable-"
+  ],
+  "Mono#zipWith": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#zipWith-reactor.core.publisher.Mono-"
+  ],
+  "Mono#zip": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#zip-java.util.function.Function-reactor.core.publisher.Mono%2E%2E%2E-"
+  ],
+  "Mono.delay": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#delay-java.time.Duration-"
+  ],
+  "Mono.empty()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#empty--"
+  ],
+  "Mono<T>": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html"
+  ],
+  "Mono<Void>": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html"
+  ],
+  "Mono": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html"
+  ],
+  "Optional<T>": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html"
+  ],
+  "Publisher#subscribe(Subscriber)": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Publisher.html?is-external=true#subscribe(org.reactivestreams.Subscriber)"
+  ],
+  "Publisher": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Publisher.html?is-external=true"
+  ],
+  "Retry": [
+    "https://projectreactor.io/docs/core/release/api/reactor/util/retry/Retry.html"
+  ],
+  "Scheduler": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/scheduler/Scheduler.html"
+  ],
+  "Signal": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Signal.html"
+  ],
+  "Stream<T>": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html"
+  ],
+  "Stream": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html"
+  ],
+  "Subscriber#onSubscribe(Subscription)": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Subscriber.html?is-external=true#onSubscribe(org.reactivestreams.Subscription)"
+  ],
+  "Subscriber": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Subscriber.html?is-external=true"
+  ],
+  "Subscribers": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Subscriber.html?is-external=true"
+  ],
+  "Subscription": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Subscription.html"
+  ],
+  "Supplier<T>": [
+    "https://docs.oracle.com/javase/8/docs/api/java/util/function/Supplier.html"
+  ],
+  "T": [],
+  "Throwable": [
+    "https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html"
+  ],
+  "Timed<T>#elapsed()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Timed.html#elapsed--"
+  ],
+  "Timed<T>#elapsedSinceSubcription()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Timed.html#elapsedSinceSubscription--"
+  ],
+  "Timed<T>#timestamp()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Timed.html#timestamp--"
+  ],
+  "Tuple2<Long, T>": [
+    "https://projectreactor.io/docs/core/release/api/reactor/util/function/Tuple2.html"
+  ],
+  "Tuple2": [
+    "https://projectreactor.io/docs/core/release/api/reactor/util/function/Tuple2.html"
+  ],
+  "UnsupportedOperatorException": [
+    "https://docs.oracle.com/javase/8/docs/api/java/lang/UnsupportedOperationException.html?is-external=true"
+  ],
+  "all": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#all-java.util.function.Predicate-"
+  ],
+  "any": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#any-java.util.function.Predicate-"
+  ],
+  "buffer(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-java.time.Duration-java.time.Duration-"
+  ],
+  "buffer(Duration, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-java.time.Duration-java.time.Duration-"
+  ],
+  "buffer(Publisher)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-org.reactivestreams.Publisher-"
+  ],
+  "buffer(int)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-int-"
+  ],
+  "buffer(int, Supplier<C>)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-int-java.util.function.Supplier-"
+  ],
+  "buffer(int, int)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#buffer-int-int-"
+  ],
+  "bufferTimeout(int, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#bufferTimeout-int-java.time.Duration-"
+  ],
+  "bufferUntil(Predicate)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#bufferUntil-java.util.function.Predicate-"
+  ],
+  ".bufferUntil(predicate, true)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#bufferUntil-java.util.function.Predicate-boolean-"
+  ],
+  "bufferWhen": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#bufferWhen-org.reactivestreams.Publisher-java.util.function.Function-"
+  ],
+  "bufferWhile(Predicate)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#bufferWhile-java.util.function.Predicate-"
+  ],
+  "cache(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#cache-java.time.Duration-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#cache-java.time.Duration-"
+  ],
+  "cache(int)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#cache-int-"
+  ],
+  "cache(int, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#cache-int-java.time.Duration-"
+  ],
+  "cast": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#cast-java.lang.Class-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#cast-java.lang.Class-"
+  ],
+  "collectList": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#collectList--"
+  ],
+  "collectMap": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#collectMap-java.util.function.Function-"
+  ],
+  "collectMultiMap": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#collectMultimap-java.util.function.Function-"
+  ],
+  "collectSortedList": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#collectSortedList--"
+  ],
+  "collect": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#collect-java.util.stream.Collector-"
+  ],
+  ".concat(Flux.error(e))": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#concat-org.reactivestreams.Publisher%2E%2E%2E-"
+  ],
+  ".concatWith(other)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#concatWith-org.reactivestreams.Publisher-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#concatWith-org.reactivestreams.Publisher-"
+  ],
+  "connect()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/ConnectableFlux.html#connect--"
+  ],
+  "count": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#count--"
+  ],
+  "cutBefore": [],
+  "defaultIfEmpty": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#defaultIfEmpty-T-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#defaultIfEmpty-T-"
+  ],
+  "defer": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#defer-java.util.function.Supplier-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#defer-java.util.function.Supplier-"
+  ],
+  "delaySubscription": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#delaySubscription-java.time.Duration-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#delaySubscription-java.time.Duration-"
+  ],
+  "dematerialize": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#dematerialize--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#dematerialize--"
+  ],
+  "doAfterTerminate": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doAfterTerminate-java.lang.Runnable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doAfterTerminate-java.lang.Runnable-"
+  ],
+  "doFinally": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doFinally-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doFinally-java.util.function.Consumer-"
+  ],
+  "doFirst": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doFirst-java.lang.Runnable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doFirst-java.lang.Runnable-"
+  ],
+  "doOnCancel": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnCancel-java.lang.Runnable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnCancel-java.lang.Runnable-"
+  ],
+  "doOnEach": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnEach-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnEach-java.util.function.Consumer-"
+  ],
+  "doOnError": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnError-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnError-java.util.function.Consumer-"
+  ],
+  "doOnNext": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnNext-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnNext-java.util.function.Consumer-"
+  ],
+  "doOnRequest": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnRequest-java.util.function.LongConsumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnRequest-java.util.function.LongConsumer-"
+  ],
+  "doOnSubscribe": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnSubscribe-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnSubscribe-java.util.function.Consumer-"
+  ],
+  "doOnTerminate": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#doOnTerminate-java.lang.Runnable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#doOnTerminate-java.lang.Runnable-"
+  ],
+  "elapsed": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#elapsed--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#elapsed--"
+  ],
+  "empty": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#empty--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#empty--"
+  ],
+  "error(Supplier<Throwable>)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#error-java.util.function.Supplier-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#error-java.util.function.Supplier-"
+  ],
+  "error": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#error-java.lang.Throwable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#error-java.lang.Throwable-"
+  ],
+  "expand(Function)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#expand-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#expand-java.util.function.Function-"
+  ],
+  "expandDeep(Function)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#expandDeep-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#expandDeep-java.util.function.Function-"
+  ],
+  "filterWhen": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#filterWhen-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#filterWhen-java.util.function.Function-"
+  ],
+  "filter": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#filter-java.util.function.Predicate-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#filter-java.util.function.Predicate-"
+  ],
+  "firstWithSignal": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#firstWithSignal-java.lang.Iterable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#firstWithSignal-java.lang.Iterable-"
+  ],
+  "firstWithValue": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#firstWithValue-java.lang.Iterable-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#firstWithValue-java.lang.Iterable-"
+  ],
+  "flatMap": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#flatMap-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#flatMap-java.util.function.Function-"
+  ],
+  "groupBy(Function<T,K>)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#flatMap-java.util.function.Function-"
+  ],
+  "handle": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#handle-java.util.function.BiConsumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#handle-java.util.function.BiConsumer-"
+  ],
+  "hasElement": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#hasElement-T-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#hasElement--"
+  ],
+  "hasElements": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#hasElement--"
+  ],
+  "ignoreElements": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#ignoreElements--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#ignoreElements-org.reactivestreams.Publisher-"
+  ],
+  "just": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#just-T%2E%2E%2E-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#just-T-"
+  ],
+  "key()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/GroupedFlux.html#key--"
+  ],
+  "log": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#log--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#log--"
+  ],
+  "map": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#map-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#map-java.util.function.Function-"
+  ],
+  "materialize": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#materialize--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#materialize--"
+  ],
+  ".mergeWith(other)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#mergeWith-org.reactivestreams.Publisher-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#mergeWith-org.reactivestreams.Publisher-"
+  ],
+  ".methodCall(parameter)": [],
+  "n": [],
+  "never": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#never--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#never--"
+  ],
+  "null": [],
+  "ofType": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#ofType-java.lang.Class-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#ofType-java.lang.Class-"
+  ],
+  ".onErrorMap(t -> new RuntimeException(t))": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onErrorMap-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#onErrorMap-java.util.function.Function-"
+  ],
+  "onErrorResume": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onErrorResume-java.lang.Class-java.util.function.Function-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#onErrorResume-java.lang.Class-java.util.function.Function-"
+  ],
+  "onErrorReturn": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#onErrorReturn-java.lang.Class-T-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#onErrorReturn-java.lang.Class-T-"
+  ],
+  "onNext": [],
+  "parallel()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/scheduler/Schedulers.html#parallel--"
+  ],
+  ".publish().autoConnect(n)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/ConnectableFlux.html#autoConnect-int-"
+  ],
+  ".publish().refCount(n)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/ConnectableFlux.html#refCount-int-"
+  ],
+  ".publish().refCount(n, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/ConnectableFlux.html#refCount-int-"
+  ],
+  "publish()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#publish--"
+  ],
+  "reduce": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#reduce-A-java.util.function.BiFunction-"
+  ],
+  "repeat": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#repeat--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#repeat--"
+  ],
+  "request(N)": [
+    "https://www.reactive-streams.org/reactive-streams-1.0.3-javadoc/org/reactivestreams/Subscription.html#request(long)"
+  ],
+  "retry()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#retry--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry--"
+  ],
+  "retry(long)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#retry-long-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry-long-"
+  ],
+  "retryWhen(Retry.backoff(...))": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry--"
+  ],
+  "retryWhen": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#retry--"
+  ],
+  "sampleFirst": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#sampleFirst-java.time.Duration-"
+  ],
+  "scan": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#scan-A-java.util.function.BiFunction-"
+  ],
+  "share()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#share--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#share--"
+  ],
+  "single()": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#single--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#single--"
+  ],
+  "subscribe": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#subscribe--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#subscribe--"
+  ],
+  "switchIfEmpty": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#switchIfEmpty-org.reactivestreams.Publisher-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#switchIfEmpty-reactor.core.publisher.Mono-"
+  ],
+  "switchMap": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#switchMap-java.util.function.Function-"
+  ],
+  "switchOnNext": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#switchOnNext-org.reactivestreams.Publisher-"
+  ],
+  ".takeLast(1)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#takeLast-int-"
+  ],
+  ".then(Mono.error(e))": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#then-reactor.core.publisher.Mono-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#then-reactor.core.publisher.Mono-"
+  ],
+  "thenEmpty": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#thenEmpty-org.reactivestreams.Publisher-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#thenEmpty-org.reactivestreams.Publisher-"
+  ],
+  "thenMany": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#thenMany-org.reactivestreams.Publisher-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#thenMany-org.reactivestreams.Publisher-"
+  ],
+  "then": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#then--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#then--"
+  ],
+  "timed": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#timed--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#timed--"
+  ],
+  "timeout": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#timeout-java.time.Duration-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#timeout-java.time.Duration-"
+  ],
+  "timestamp": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#timestamp--",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#timestamp--"
+  ],
+  "using": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#using-java.util.concurrent.Callable-java.util.function.Function-java.util.function.Consumer-",
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html#using-java.util.concurrent.Callable-java.util.function.Function-java.util.function.Consumer-"
+  ],
+  "window(Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#window-java.time.Duration-"
+  ],
+  "window(Duration, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#window-java.time.Duration-java.time.Duration-"
+  ],
+  "window(Publisher)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#window-org.reactivestreams.Publisher-"
+  ],
+  "window(int)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#window-int-"
+  ],
+  "window(int, int)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#window-int-int-"
+  ],
+  "windowTimeout(int, Duration)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowTimeout-int-java.time.Duration-"
+  ],
+  ".windowUntil(predicate, true)": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowUntil-java.util.function.Predicate-boolean-"
+  ],
+  "windowUntil": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowUntil-java.util.function.Predicate-"
+  ],
+  "windowWhen": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowWhen-org.reactivestreams.Publisher-java.util.function.Function-"
+  ],
+  "windowWhile": [
+    "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html#windowWhile-java.util.function.Predicate-"
+  ]
+}
